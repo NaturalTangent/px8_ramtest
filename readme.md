@@ -32,16 +32,3 @@ Here's an example identifying 6 bad chips on one of my PX8 (using the terminal a
 
 The test ROM checks the RS232C DSR signal before transmitting any data, so make sure that your cable includes this signal (or at least asserts it).
 
-## Backstory
-
-_TLDR; If your PX8 appears totally dead, it may very well be caused by a RAM fault._
-
-I had 2 PX8s that both had no signs of life (no LED or screen activity, etc.). After studying the schematics and probing all of the chips with a scope, I couldn't find an obvious fault. All of the bus activity looked reasonable.
-
-The one part I couldn't be sure about was the RAM. Each of the 8 RAM chips contributes 1 bit to each byte of RAM, so even a single faulty RAM chip could prevent booting.
-
-I'd previously come across the ram test ROM. The only instructions it came with were;
-
-```A PX-4 & PX-8 D-RAM test OS replacement```
-
-However using it to replace the OS ROM resulted in the same dead system. So, time to dust-off ~40 year old memories of Z80 asm and try and climb out of another rabbit hole...
