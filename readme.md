@@ -2,7 +2,9 @@
 
 This is a RAM diagnostics for the Epson PX8 (and probably PX4) portable computers.
 
-I do not know who the author of this is, I obtained it from [this excellent website](https://fjkraan.home.xs4all.nl/comp/px8/) here [RAMTEST.zip](https://fjkraan.home.xs4all.nl/comp/px8/roms/RAMTEST.zip)
+A RAM fault can give the appearance that the PX8 is completely dead.
+
+I do not know who the author of this test ROM is, I obtained it from [this excellent website](https://fjkraan.home.xs4all.nl/comp/px8/) here [RAMTEST.zip](https://fjkraan.home.xs4all.nl/comp/px8/roms/RAMTEST.zip)
 
 Unfortunately it comes with next to no instructions!
 
